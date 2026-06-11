@@ -15,10 +15,11 @@ def main():
     # Acceder por filas y columnas
     print('Elemento[1][2]: ', matrix[1][2])
 
-    #Generando matriz con ciclo for
+    # Generando matriz con ciclo for
     generarMatriz = [[fila * 5 + col for col in range(5)] for fila in range(5)]
     print(generarMatriz)
 
+    # Haciendo recorrido de la variable matrix
     print('Recorrido')
     for fila in matrix:
         for valor in fila:
